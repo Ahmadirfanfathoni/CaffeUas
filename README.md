@@ -1,5 +1,33 @@
 
 PENJELASAN
+- Deklarasi Menu dan Harga:
+
+Program memiliki daftar menu makanan dan minuman, serta harga masing-masing dalam bentuk array menu dan hargaMenu.
+
+- Menu Utama:
+
+Program menampilkan menu dengan nomor pilihan.
+Pengguna diberikan 4 opsi:
+  - Tambah Pesanan: Menambahkan item berdasarkan nomor menu yang dipilih dan jumlah yang diinginkan.
+  - Lihat Daftar Pesanan: Menampilkan pesanan yang sudah dimasukkan beserta harga dan total sementara.
+  - Hitung Total Biaya: Menampilkan total biaya semua pesanan.
+  - Selesai: Mengakhiri program.
+
+
+Proses Input dan Validasi:
+
+  - Pengguna memasukkan pilihan menu dan nomor item untuk pesanan.
+  - Program memvalidasi input pengguna agar nomor menu valid, dan menghitung total harga    berdasarkan jumlah pesanan.
+
+Fungsi dan Output:
+
+  - Jika pengguna memilih untuk menambah pesanan, pesanan dan harga disimpan dalam ArrayList.
+  - Saat memilih untuk melihat daftar pesanan atau menghitung total biaya, program menampilkan informasi yang relevan.
+
+Akhir Program:
+
+  - Program berhenti jika pengguna memilih opsi "Selesai" (pilihan 4).
+  - Program ini memberi pengalaman pengguna untuk memesan di kafe, melihat pesanan, menghitung total biaya, dan mengakhiri transaksi dengan mudah.
 
 import java.util.ArrayList;
 import java.util.Scanner;
